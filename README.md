@@ -4,11 +4,13 @@
 - [note](https://note.com/fm_protect/m/m63ef56b8f55f)
 
 ## 環境構築
+- [ScandyPro](https://www.scandy.co/apps/scandy-pro)
+  - iPhoneやiPadで頭部のスキャンをするときに使うアプリ
 - [Rhinoceros](https://www.rhino3d.co.jp/)
   - フェイスシールドのフレームの形状をカスタマイズするのに使うCADソフト
   - このソフトに搭載されているGrasshopperを用いてビジュアルプログラミングしている
-- [ScandyPro](https://www.scandy.co/apps/scandy-pro)
-  - iPhoneやiPadで頭部のスキャンをするときに使うアプリ
+- [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura)
+  - 設計したフレームのデータを3Dプリンタの動作に変換するソフト
 
 ## 作り方
 ### 1. 頭部の3Dスキャン
