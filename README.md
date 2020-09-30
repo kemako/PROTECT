@@ -1,7 +1,7 @@
 # PROTECT
 ## 概要
 - 頭の形に合わせてカスタマイズできるフェイスシールド
-- [note](https://note.com/fm_protect)
+- [note](https://note.com/fm_protect/m/m63ef56b8f55f)
 
 ## 環境構築
 - [Rhinoceros](https://www.rhino3d.co.jp/)
@@ -22,7 +22,7 @@
 - Grasshopperの画面で`File > Open Document`でFaceshield.ghを開く
 
 ### 3. スキャンデータの読み込み
-- **Rhinoceros** `File > Import` でOBJ形式のスキャンデータを選択
+- **Rhinoceros**で`File > Import` からOBJ形式のスキャンデータを選択
   - ポップアップ画面（OBJ Import Options）の設定は
     - Import OBJ groups as: Object names
     - [x] Import OBJ objects
@@ -33,7 +33,7 @@
     - [ ] Split 32-bit textures into separate files
 
 ### 4. スキャンデータの位置調整
-- **Rhinoceros** `Transform > Move` や `Transform > Rotate` でおでこの中心が原点にくるように位置や向きを調整する
+- **Rhinoceros**で`Transform > Move` や `Transform > Rotate` でおでこの中心が原点にくるように位置や向きを調整する
   - このときPerspectiveじゃなくてTop / Front / Rightの画面で操作するのがおすすめ
 
 ### 5. スライダーを調整
@@ -41,8 +41,8 @@
 - 頭部にフィットするまで調整する
 
 ### 6. STLデータを出力
-- **Grasshopper** Allと書かれたBrepをBake
-- **Rhinoceros** Bakeされたフレームを選択してから `File > Export Selected` で書き出し
+- **Grasshopper**でAllと書かれたBrepをBake
+- **Rhinoceros**でBakeされたフレームを選択してから `File > Export Selected` で書き出し
   - ファイルの種類はSTLを選択
 
 ### 7. 3Dプリント
