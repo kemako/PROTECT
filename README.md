@@ -4,28 +4,38 @@
 - ScandyPro
 
 ## 作り方
-### 頭部の3Dスキャン
+### 1. 頭部の3Dスキャン
 - ScandyProで頭部の3Dスキャンを行います
 - データを書き出すときはmm OBJ形式で
-### Rhinocerosを立ち上げる
+
+### 2. RhinocerosとGrasshopperを立ち上げる
 - Faceshield.3dmを開く
 - CommandのところでGrasshopperと入力しエンターを押すとGrasshopperがたちあがる
-- Grasshopperの画面でFile > Open DocumentでFaceshield.ghを開く
-### スキャンデータの読み込み
+- Grasshopperの画面で`File > Open Document`でFaceshield.ghを開く
+
+### 3. スキャンデータの読み込み
 - Rhinocerosの`File > Import` でOBJ形式のスキャンデータを選択します
 - ポップアップ画面の設定
-### スキャンデータの位置調整
-- 右クリック＆
-困ったときはCtrl+Z
+
+### 4. スキャンデータの位置調整
 - `Transform > Move` や `Transform > Rotate` でおでこの中心が原点にくるように位置や向きを調整する
-PerspectiveじゃなくてTop/ Front/ Rightで操作するのがおすすめ
-### スライダーを調整
-- スライダーをドラッグして頭部に合わせる
-### STLデータを出力
-- Grasshopper上でフレームをBake
-- Rhinoceros上でBakeしたフレームを選択してから `File > Export Selected` でSTL形式で書き出し
-ファイルの種類はSTL
-### 3Dプリント
+  - このときPerspectiveじゃなくてTop / Front / Rightの画面で操作するのがおすすめ
+- 基本的な操作
+  - 右クリック＆ドラッグで3D回転
+  - Shift+右クリックで移動
+  - マウスホイールで拡大縮小
+  - 困ったときはCtrl+Z
+
+### 5. スライダーを調整
+- スライダーをドラッグしてパラメータの値を変えるとフレームの形が変わる
+- 頭部にフィットするまで調整する
+
+### 6. STLデータを出力
+- Grasshopper上でAllと書かれたBrepをBake
+- Rhinoceros上でBakeされたフレームを選択してから `File > Export Selected` で書き出し
+  - ファイルの種類はSTL
+
+### 7. 3Dプリント
 - CuraでSTLファイルを開く
 - Support Blockerを使って前の部分だけInfill Densityを10%にする
 
