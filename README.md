@@ -1,4 +1,4 @@
-# PROTECT
+# PROTECT: PROactive To Emerging COVID-19 in Takuetsu
 ## 概要
 - 頭の形に合わせてカスタマイズできるフェイスシールド
 - [note](https://note.com/fm_protect/m/m63ef56b8f55f)
